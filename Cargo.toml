@@ -19,16 +19,16 @@ bevy-trait-query-impl = { path = "proc-macro", version = "0.5.0" }
 tracing = "0.1"
 
 [dependencies.bevy_ecs]
-git = "https://github.com/obox-systems/bevy", 
+git = "https://github.com/obox-systems/bevy"
 branch = "dev-0.14.0-patch"
 
 [dependencies.bevy_app]
-git = "https://github.com/obox-systems/bevy", 
+git = "https://github.com/obox-systems/bevy" 
 branch = "dev-0.14.0-patch"
 optional = true
 
 [dependencies.bevy_core]
-git = "https://github.com/obox-systems/bevy", 
+git = "https://github.com/obox-systems/bevy" 
 branch = "dev-0.14.0-patch"
 optional = true
 
@@ -36,7 +36,7 @@ optional = true
 criterion = "0.5"
 
 [dev-dependencies.bevy]
-git = "https://github.com/obox-systems/bevy", 
+git = "https://github.com/obox-systems/bevy"
 branch = "dev-0.14.0-patch"
 default-features = false
 
